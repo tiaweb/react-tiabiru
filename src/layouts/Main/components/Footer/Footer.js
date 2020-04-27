@@ -27,7 +27,7 @@ const Footer = props => {
           href="https://tiaweb.github.io"
           target="_blank"
         >
-          Devias IO
+          Tiaweb
         </Link>
         . 2020
       </Typography>
