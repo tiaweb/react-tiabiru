@@ -85,16 +85,7 @@ const Sidebar = props => {
     }
   ];
 
-  return (
-    <Drawer
-      anchor="left"
-      classes={{ paper: classes.drawer }}
-      onClose={onClose}
-      open={open}
-      variant={variant}
-    >
-          </Drawer>
-  );
+  
 };
 
 Sidebar.propTypes = {
