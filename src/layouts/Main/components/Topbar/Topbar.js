@@ -7,7 +7,6 @@ import { AppBar, Toolbar, Badge, Hidden, IconButton } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
 import InputIcon from '@material-ui/icons/Input';
-
 const useStyles = makeStyles(theme => ({
   root: {
     boxShadow: 'none'
@@ -40,6 +39,9 @@ const Topbar = props => {
           />
         </RouterLink>
         <div className={classes.flexGrow} />
+          <Hidden smDown>
+          tessss
+        </Hidden>
         <Hidden mdDown>
           <IconButton color="inherit">
             <Badge
