@@ -41,10 +41,10 @@ const Topbar = props => {
             src="/images/logos/logo--white.svg"
           />
         </RouterLink>
+
+ <Hidden mdDown> &emsp;&emsp;<Search/></Hidden>
         <div className={classes.flexGrow} />
-          <Hidden smDown>
-          <Search/>
-        </Hidden>
+         
         <Hidden mdDown>
           <IconButton color="inherit">
             <Badge
