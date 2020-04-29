@@ -42,7 +42,7 @@ const Topbar = props => {
           />
         </RouterLink>
 
- <Hidden mdDown> &emsp;&emsp;<Search/></Hidden>
+ <Hidden mdDown>&emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;<Search/></Hidden>
         <div className={classes.flexGrow} />
          
         <Hidden mdDown>
